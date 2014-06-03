@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AgitaMe!</string>
+    <string name="menu_ajustes">Panel de Control</string>
+    <string name="menu_about">Acerca de</string>
+    <string name="maxAceleration">Nivel Agitación</string>
+    <string name="splash_titulo">AgitaMe!</string>
+    <string name="splash_subtitulo">Permite contestar o rechazar una llamada con tan solo agitar el movil</string>
+    
+    <string name="config_app_name">AgitaMe! - Ajustes</string>
+    <string name="config_activar_voz">Voz id llamada</string>
+    <string name="config_agitame_para">Agítame para...</string>
+    <string name="config_contestar"> Contestar</string>
+    <string name="config_colgar"> Rechazar</string>
+    <string name="config_activar_altavoz">Modo altavoz manos-libres</string>
+    <string name="config_sensor">Ajustar la sensibilidad del sensor de agitación</string>
+    <string name="config_nivel">nivel actual:</string>
+    <string name="config_min">min.</string>
+    <string name="config_max">MAX.</string>
+    <string name="config_test">Test</string>
+    <string name="config_reset">Reset test</string>
+    <string name="config_compatible">Mejorar compatibilidad con algunos HTC (No recomendado! sólo si no funciona normalmente puedes probarlo de manera experimental)</string>
+    <string name="config_salir">SALIR</string>
+    
+    <string name="llamando">Llamando</string>
+    
+    <string name="content_description_logo">telefono agitandose</string>
+    <string name="content_description_text2Voz">telefono hablando</string>
+    <string name="content_description_sensor">sensor de aceleracion</string>
+    
+    <string name="notificacion_ejecucion">En ejecucion, dormir en 30s ..zZzZzZ</string>
+    
+    <string name="subtitulo">Desarrollo de apps móviles (Android/iOS)</string>
+    
+</resources>

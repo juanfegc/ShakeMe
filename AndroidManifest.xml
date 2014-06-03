@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.eurekios.shakeme"
+    android:versionCode="17"
+    android:versionName="2.0">
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <!-- establecer requisitos de hardware necesarios para que funcione la app -->
+    <uses-feature
+        android:name="android.hardware.sensor.accelerometer"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="true" />
+
+    <!--
+         =============================
+          PERMISOS de uso necesarios 
+         =============================
+         READ_PHONE_STATE: estado del telefono (llamando, hablando,etc...)
+         MODIFY_PHONE_STATE : responder llamada
+         CALL_PHONE : rechazar llada
+         WAKE_LOCK : desbloquear pantalla
+         MODIFY_AUDIO_SETTINGS : activar/desactivar altavoz
+    -->
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <!-- =================================================================== -->
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+        <!-- ACTIVITIES -->
+        <activity
+            android:name="com.eurekios.shakeme.SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.eurekios.shakeme.ConfigActivity"
+            android:label="@string/config_app_name" >
+        </activity>
+
+        <!-- BROADCAST RECEIVER -->
+        <receiver android:name="com.eurekios.shakeme.ReceptorLlamadas" >
+            <intent-filter>
+                <action android:name="android.intent.action.PHONE_STATE" />
+            </intent-filter>
+        </receiver>
+
+        <!-- SERVICE -->
+        <service
+            android:name="com.eurekios.shakeme.ShakeMeService"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/app_name" />
+
+        
+    </application>
+    <!-- =================================================================== -->
+
+</manifest>

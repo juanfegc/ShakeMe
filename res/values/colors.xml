@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_color_ON">#92C500</color>
+    <color name="bg_color_OFF">#FF8A00</color>
+    <color name="text_color_blanco">#FFFFFF</color>
+    
+    
+</resources>

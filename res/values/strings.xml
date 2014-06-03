@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ShakeMe!</string>
+    <string name="menu_ajustes">Control Panel</string>
+    <string name="menu_about">About...</string>
+    <string name="maxAceleration">Level</string>
+    <string name="splash_titulo">ShakeMe!</string>
+    <string name="splash_subtitulo">You can answer or reject a call by simply shaking the phone</string>
+    
+    <string name="config_app_name">ShakeMe! - Settings</string>
+    <string name="config_activar_voz">Speech caller id</string>
+    <string name="config_agitame_para">Shake me for...</string>
+    <string name="config_contestar">Answer</string>
+    <string name="config_colgar">Reject</string>
+    <string name="config_activar_altavoz">Hands-free speakerphone mode</string>
+    <string name="config_sensor">Adjust the sensitivity of the sensor</string>
+    <string name="config_nivel">current level:</string>
+    <string name="config_min">min.</string>
+    <string name="config_max">MAX.</string>
+    <string name="config_test">Test</string>
+    <string name="config_reset">Reset test</string>
+    <string name="config_compatible">Improve compatibility with some HTC (Not recommended! only if it does not work you can try it)</string>
+    <string name="config_salir">EXIT</string>
+    
+    <string name="llamando">Calling</string>
+    
+    <string name="content_description_logo">shake phone</string>
+    <string name="content_description_text2Voz">talk phone</string>
+    <string name="content_description_sensor">acceleration sensor</string>
+    
+    <string name="notificacion_ejecucion">Running, sleep in 30sec ..zZzZzZ</string>
+    
+    <string name="subtitulo">Mobile Apps Development(Android/iOS)</string>
+    
+</resources>
