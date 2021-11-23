@@ -1,4 +1,4 @@
-#DEPRECATED!!!
+# DEPRECATED!!!
 # ShakeMe! [![Android](http://developer.android.com/images/brand/en_app_rgb_wo_60.png)](https://play.google.com/store/apps/details?id=com.eurekios.shakeme)
 You can answer or reject a call by simply shaking the phone.
 - For more information about the app `ShakeMe`, visit my web [www.euekios.com][web]
